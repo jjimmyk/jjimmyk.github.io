@@ -5,3 +5,9 @@ const myHeading = document.querySelector('h1');
  
 // Replace the heading text with Hello World!
 myHeading.textContent = 'Hello world!';
+
+//Change the color of myPara
+function changeColor(newColor) {
+  var elem = document.getElementById('myPara');
+  elem.style.color = newColor;
+}
